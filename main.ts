@@ -1042,7 +1042,7 @@ namespace LEDBit {
             matBuf[i + 1] = 0xff;
         }
         matBuf[0] = 0x00;
-        pins.i2cWriteBuffer(HT16K33_ADDRESS, matBuf);
+        //pins.i2cWriteBuffer(HT16K33_ADDRESS, matBuf);
     }
 
 }
