@@ -1034,7 +1034,7 @@ namespace LEDBit {
     //% blockGap=50
     export function LEDAllOn(): void {
         if (!initMatrix) {
-            matrixInit();
+           // matrixInit();
             initMatrix = true;
         }
         
